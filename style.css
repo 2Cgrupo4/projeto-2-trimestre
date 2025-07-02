@@ -20,3 +20,43 @@ footer p {
     font-size: 0.6rem;
     margin-top: 0,5rem;
 }
+
+#container{
+    display: flex:
+}
+.cartao{
+    margin: 1rem 1rem;
+    background-color: rgb(53, 208, 151);
+    height: 20rem ;
+    flex-grow: 1;
+    flex-basis: calc(33%-6rem);
+}
+
+.cartao_conteudo{
+    text-align: center;
+    background-color: rgba(118, 211, 180, 0.856);
+    height: 100%;
+    transform-style: preserve-3d;
+    transform: transform 300ms ease-in-out;
+}
+
+.cartao_conteudo{
+    background-color: black;
+    color: white;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+    backface-visibility: hidden;
+
+}
+
+.cartao:hover .cartao_conteudo{
+    transform: rotateY('180deg');
+
+}
+.cartao_conteudo .cartao-pergunta, .cartao_conteudo_resposta{
+    backface-visibility: hidden;
+}
