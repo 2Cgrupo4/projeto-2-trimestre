@@ -19,3 +19,8 @@ CriaCartao(
 ‘Brasil, a posse de animais silvestres como bichos de estimação é regulamentada por lei. Em geral, é proibido, a menos que o animal seja proveniente de criadouros legalizados e com a devida autorização do IBAMA (Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis). A compra e venda de animais silvestres sem autorização é crime ambiental.’
 )
 
+CriaCartao(
+‘Animais Silvestres’,
+‘Todos os animais silvestres são perigosos?’,
+‘Não. Embora alguns possam ser perigosos se ameaçados ou se você invadir seu espaço, a maioria dos animais silvestres evita o contato humano. O perigo real está na transmissão de doenças zoonóticas, por isso é melhor manter distância.‘
+)
